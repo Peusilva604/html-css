@@ -19,7 +19,7 @@
 --fonte-andoid: 'android', serif;
 }
 * {
-    margin: px;
+    margin: 0px;/
     padding: 0px;
 }
 
