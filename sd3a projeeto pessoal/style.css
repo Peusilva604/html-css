@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@font-face{
+font-family: 'cinematografica';
+src: url('fonte/Cinematografica-Bold-trial.ttf') format('truetype');
+}
+
+/*
+paleta cinza
+#88a194 (cor1)
+#a1b9ad (cor2)
+#b9d0c6(cor 3)
+#d2e8de(cor 4)
+#eafff7(cor 5)
+*/
+
+
+
+body{
+    font-family:'cinematografica', sans-serif;
+ background-color: black;
+}
+
+h1{
+   cinematrogafica;
+    color:whitesmoke;
+}
+
+h2{
+    color: white
+} 
+
+p{
+color:white;
+}
+
+ul > li{
+    color: white
+}
+li{
+    color: white;
+}
