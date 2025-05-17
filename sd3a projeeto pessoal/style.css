@@ -15,15 +15,41 @@ paleta cinza
 */
 
 
-
 body{
-    font-family:'cinematografica', sans-serif;
- background-color: black;
+    background-image: linear-gradient(to left, lightblue, gray )
+    
 }
 
+div.conector{
+    background-image: url(imagens/D_NQ_NP_823556-MLB44781653006_022021-pp.jpg);
+    border-radius: 50%;
+    position: absolute;
+  bottom: 0;
+  width: 150px;
+  height: 150px;
+}
+
+div.tela{
+    background-image: url(imagens/D_NQ_NP_677729-MLA51556434355_092022-p.jpg);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 3px;
+  right: 840px;
+  width: 150px;
+  height: 150px;
+}
+
+.tela, .conector{
+
+    
+}
+
+
+
 h1{
-   cinematrogafica;
-    color:whitesmoke;
+    color:black;
+   font-family: 'cinematografica';
+
 }
 
 h2{
@@ -34,9 +60,11 @@ p{
 color:white;
 }
 
+
 ul > li{
-    color: white
-}
-li{
-    color: white;
+    font-family: 'Times New Roman', Times, serif;
+border: 1px solid lightskyblue;
+border-radius: 5px 10px;
+background-color: rgba(220, 220, 220, 0.483);
+color: white
 }
