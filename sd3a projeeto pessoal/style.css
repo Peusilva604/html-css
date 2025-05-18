@@ -10,8 +10,10 @@ src: url('fonte/Cinematografica-Bold-trial.ttf') format('truetype');
 
 body{
     background-attachment: fixed;
-    background-image: linear-gradient(to top , #3B3936,#889C9B)
+    background-image: linear-gradient(to right, rgb(112, 105, 105), rgba(25, 22, 22, 0.889) )
+   
 }
+
 div.conector{
     background-image: url(imagens/D_NQ_NP_823556-MLB44781653006_022021-pp.jpg);
     margin-top: 30px;
