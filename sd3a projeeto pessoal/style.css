@@ -5,45 +5,46 @@ font-family: 'cinematografica';
 src: url('fonte/Cinematografica-Bold-trial.ttf') format('truetype');
 }
 
-/*
-paleta cinza
-#88a194 (cor1)
-#a1b9ad (cor2)
-#b9d0c6(cor 3)
-#d2e8de(cor 4)
-#eafff7(cor 5)
-*/
+
 
 
 body{
-    background-image: linear-gradient(to left, lightblue, gray )
-    
+    background-attachment: fixed;
+    background-image: linear-gradient(to top , #3B3936,#889C9B)
 }
-
 div.conector{
     background-image: url(imagens/D_NQ_NP_823556-MLB44781653006_022021-pp.jpg);
-    border-radius: 50%;
-    position: absolute;
-  bottom: 0;
-  width: 150px;
-  height: 150px;
+    margin-top: 30px;
+    display: inline-block;
+    object-fit: cover;
+height: 150px;
+width: 150px;
+border-radius: 50%;
 }
 
 div.tela{
-    background-image: url(imagens/D_NQ_NP_677729-MLA51556434355_092022-p.jpg);
-    border-radius: 50%;
-    position: absolute;
-    bottom: 3px;
-  right: 840px;
-  width: 150px;
-  height: 150px;
+background-image: url(imagens/telap.jpg);
+margin-left: 175px;
+ object-fit: cover;
+ display: inline-block;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+}
+div.bateria{
+
+background-image: url(imagens/th.jpeg);
+margin-left: 190px;
+height: 150px;
+width: 150px;
+border-radius: 50%;
+display: inline-block;
 }
 
-.tela, .conector{
 
-    
+#ajuste{
+    background-position:  right;
 }
-
 
 
 h1{
@@ -55,16 +56,37 @@ h1{
 h2{
     color: white
 } 
+h3{
+    color: black;
+}
+
 
 p{
 color:white;
 }
 
 
-ul > li{
-    font-family: 'Times New Roman', Times, serif;
-border: 1px solid lightskyblue;
-border-radius: 5px 10px;
-background-color: rgba(220, 220, 220, 0.483);
-color: white
+
+li{
+    color: white;
 }
+nav> li{
+  box-shadow: 0px 1px 3px rgba(136, 155, 155, 0.527);
+}
+a{
+text-decoration: solid;
+color: white
+;;
+ 
+}
+a:hover{
+height: 10px;
+background-color: gray;
+color: lightblue;
+padding: 10px;
+border-radius: 5px;
+text-decoration: none;
+font-weight: bold;
+transition-duration: 0.3s;
+}
+ 
