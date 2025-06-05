@@ -9,8 +9,10 @@ src: url('fonte/Cinematografica-Bold-trial.ttf') format('truetype');
 
 
 body{
+    max-width: 1000px;
+    min-width: 400px;
     background-attachment: fixed;
-    background-image: linear-gradient(to right, rgb(112, 105, 105), rgba(25, 22, 22, 0.889) )
+    background-image: linear-gradient(to right, rgb(98, 91, 91), rgba(0, 0, 0, 0.889) )
    
 }
 
@@ -64,6 +66,7 @@ h3{
 
 
 p{
+    text-align: center;
 color:white;
 }
 
