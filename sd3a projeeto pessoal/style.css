@@ -9,6 +9,8 @@ src: url('fonte/Cinematografica-Bold-trial.ttf') format('truetype');
 
 
 body{
+  
+    
     background-image: url(imagens/imagem\ sd3a.jpg);
     max-width: 1000px;
     min-width: 400px;
@@ -32,6 +34,7 @@ background-size: cover
 
 
 div.conector{
+    
     background-image: url(imagens/D_NQ_NP_823556-MLB44781653006_022021-pp.jpg);
     margin-top: 30px;
     display: inline-block;
@@ -91,7 +94,7 @@ li{
     color: lightblue;
 }
 nav> li{
-  box-shadow: 0px 1px 3px rgba(136, 155, 155, 0.527);
+wq
 }
 a{
 text-decoration: solid;
